@@ -1974,7 +1974,7 @@ export interface ViewStyle extends FlexStyle, ShadowStyleIOS, TransformsStyle {
     borderEndColor?: ColorValue | undefined;
     borderLeftColor?: ColorValue | undefined;
     borderLeftWidth?: number | undefined;
-    borderRadius?: number | undefined;
+    borderRadius?: number | string | undefined;
     borderRightColor?: ColorValue | undefined;
     borderRightWidth?: number | undefined;
     borderStartColor?: ColorValue | undefined;
@@ -3435,7 +3435,7 @@ export interface ImageStyle extends FlexStyle, ShadowStyleIOS, TransformsStyle {
     backgroundColor?: ColorValue | undefined;
     borderColor?: ColorValue | undefined;
     borderWidth?: number | undefined;
-    borderRadius?: number | undefined;
+    borderRadius?: number | string | undefined;
     borderTopLeftRadius?: number | undefined;
     borderTopRightRadius?: number | undefined;
     overflow?: 'visible' | 'hidden' | undefined;
@@ -3636,7 +3636,7 @@ export interface ImagePropsBase extends ImagePropsIOS, ImagePropsAndroid, Access
 
     progressiveRenderingEnabled?: boolean | undefined;
 
-    borderRadius?: number | undefined;
+    borderRadius?: number | string | undefined;
 
     borderTopLeftRadius?: number | undefined;
 
